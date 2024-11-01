@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs':'300px'
+      },
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        mono: ['var(--font-roboto-mono)'],
+        inter:['var(--font-geist-inter)'],
+        heebo:['var(--font-geist-hebbo)']
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
