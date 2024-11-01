@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="lg:w-[483px] h-[356px] bg-[#FFFFFF] p-6">
+    <div className="lg:w-[483px] h-auto bg-[#FFFFFF] p-6">
       <h1 className="font-heebo text-[26px] font-bold text-black">
         Making a design system from scratch
       </h1>
@@ -10,7 +10,7 @@ const Card = () => {
         <p className="pr-10 border-r border-[#000000] font-normal">12 Feb 2020</p> 
         <p className="pl-10 font-normal">Design pattern</p>
       </div>
-      <p className="text-[16px] mt-6 text-[#000000] text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <p className="lg:text-[16px] mt-6 text-[#000000] lg:text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
     </div>
   );
 };
